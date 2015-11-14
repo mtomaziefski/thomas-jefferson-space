@@ -1,4 +1,4 @@
-var mouseX = 0, mouseY = 0;
+var mouseX = 600, mouseY = 300;
 
 $(document).mousemove(function(e){
    	mouseX = e.pageX;
