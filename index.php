@@ -34,6 +34,8 @@
         <script>
             /* Declaring the global variables */
             var imageOne;
+            var mouseXX;
+            var mouseYY;
 
             /* Calling the initialization function */
             $(init);
@@ -51,8 +53,8 @@
             function init(){
                 
                 /* Instanciate the mouse position variables */
-                mouseX = 600;
-                mouseY = 300;
+                mouseXX = 600;
+                mouseYY = 300;
                 
                 /* Instanciate a HeadImage class for every image */
                 imageOne = new HeadImage("one");
@@ -63,8 +65,8 @@
             function getMousePosition(event){
                 
                 /* Setting the mouse position variables */
-                mouseX = event.pageX;
-                mouseY = event.pageY;
+                mouseXX = event.pageX;
+                mouseYY = event.pageY;
                 
                 /*Calling the setImageDirection function of the HeadImage class
                  * to display the correct image*/
