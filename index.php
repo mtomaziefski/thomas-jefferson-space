@@ -78,6 +78,7 @@
             $(document).ready(getMousePosition);
             //Spoof resize
             $(window).resize();
+            $('body').click();
         </script>
 
     </body>
