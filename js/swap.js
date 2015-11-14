@@ -1,5 +1,7 @@
 /* Declaring the global variables */
 var imageOne;
+var mouseX;
+var mouseY;
 
 /* Calling the initialization function */
 $(init);
