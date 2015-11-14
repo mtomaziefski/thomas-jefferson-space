@@ -12,6 +12,16 @@
 		top: -2000px;
 	}
 }
+@-moz-keyframes STAR-MOVE {
+	from {
+		left: 0;
+		top: 0;
+	}
+	to { 
+		left: -10000px;
+		top: -2000px;
+	}
+}
 
 #background {
 	background: black url(../images/background.png) repeat 5% 5%;
