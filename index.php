@@ -77,7 +77,7 @@
             //Get mouse position on ready
             $(document).ready(getMousePosition);
             //Spoof resize
-            $(window).resize();
+
         </script>
 
     </body>

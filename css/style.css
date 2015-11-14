@@ -23,6 +23,11 @@
 	-webkit-animation-duration: 200s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: STAR-MOVE;
+	-moz-animation-duration: 200s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+
 }
 
 #midground {
@@ -35,6 +40,10 @@
 	-webkit-animation-duration: 150s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: STAR-MOVE;
+	-moz-animation-duration: 150s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
 }
 
 #foreground {
@@ -47,6 +56,11 @@
 	-webkit-animation-duration: 100s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: STAR-MOVE;
+	-moz-animation-duration: 100s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+
 }
 
 /*Thomas Jeffersons*/
