@@ -31,13 +31,11 @@ if(img.length > 0){
         img.css('-o-transform', 'rotate('+degree+'deg)');
         img.css('-ms-transform', 'rotate('+degree+'deg)');
     }
-    $(document).mousemove(mouse);
-}
 
-/* Declaring the global variables */
+    $(document).mousemove(mouse);
+
+    /* Declaring the global variables */
             var imageOne;
-            var mouseXX;
-            var mouseYY;
 
             /* Calling the initialization function */
             $(init);
@@ -77,3 +75,6 @@ if(img.length > 0){
 
             //Get mouse position on ready
             $(document).ready(getMousePosition);
+}
+
+            
