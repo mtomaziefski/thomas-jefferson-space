@@ -28,10 +28,10 @@
     	  <source src="mp3/space.mp3" type="audio/mpeg">
     	</audio>
     	<!--Scripts-->
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
     	<script src="js/jefferson-changer.js" type="text/javascript"></script>
     	<script src="js/main.js" type="text/javascript"></script>
-        <script>
+        <script type="text/javascript">
             /* Declaring the global variables */
             var imageOne;
             var mouseXX;
